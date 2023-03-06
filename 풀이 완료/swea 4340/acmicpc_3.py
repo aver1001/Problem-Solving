@@ -47,6 +47,8 @@ def DFS(y,x,cnt,d):
                 DFS(y,x+1,cnt+1,2)
     isVistied[y][x] = False
 
+import time
+start = time.time()
 stright = {1,2}
 turn = {3,4,5,6}
 
@@ -95,3 +97,4 @@ for test_case in range (1,T+1):
    
 
 
+print(time.time()-start)
