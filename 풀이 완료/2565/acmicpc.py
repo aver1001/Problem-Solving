@@ -17,6 +17,5 @@ for _,B in board:
         stack.append(B)
     else:
         stack[location] = B
-    #print(stack)
-
+    
 print(N-len(stack))
