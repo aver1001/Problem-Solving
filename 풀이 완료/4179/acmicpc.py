@@ -96,7 +96,7 @@ while True:
             if isRange(ty,tx) and board[ty][tx] != '#' and board[ty][tx] != 'F' and isVisited[ty][tx] == False: 
                 isVisited[ty][tx] = True
                 tempQueue.append([ty,tx])
-    #큐랑 불위치 바꿔줌
+    #큐랑 불위치 새로추가된걸로 바꿔줌
     queue = tempQueue
     newFire = tempFire
     time += 1
